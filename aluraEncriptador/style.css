@@ -1,0 +1,99 @@
+*{
+    background-color: rgb(230, 225, 163);
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+
+
+.logo{
+    padding-top: 10px;
+    margin-left: 20px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.textArea{
+    border: none;
+    color: rgb(15, 10, 4);
+    margin-top: 24px;
+    text-transform: lowercase;
+    margin-left: 98px;
+    padding-left: 20px;
+
+}
+
+::placeholder{
+    color: black;
+    margin-top: 90px;
+    outline: none;
+}
+
+.text-area{
+    background: rgb(196, 79, 79);
+    background-image: url("imagenes/muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: blueviolet;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 30px;
+   
+
+}
+
+.mensaje.focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    border-radius: 24px;
+    justify-content: center;
+
+}
+
+.btnEncriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+}
+
+.btnDesencriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+.Copiar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+    margin-left: 200px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
